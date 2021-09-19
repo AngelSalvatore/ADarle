@@ -1,0 +1,46 @@
+*{
+    margin-left: 4px;
+}
+
+.logo{
+    width: 200px;
+}
+input{
+    margin: 1px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Perfil Paciente*/
+.img-thumbnail {
+    height: 120px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.radiografia{
+    width:200px;
+    height: auto;
+}
+
+.d-block{
+    width: 400px;
+    height: auto;
+}
+
+.redondo{
+    background: green;
+    color: white;
+    border-radius: 50%;
+}
+
+.radiografia{
+    width: 100%;
+}
+
+.carousel{
+    width: 100%;
+}
+/*End Perfil Paciente*/

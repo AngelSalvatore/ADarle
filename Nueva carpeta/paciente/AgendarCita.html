@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Startup</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--Style CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!--Nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../assets/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">Medical Startup</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="MiPerfil.html">Mi perfil</a>
+              <a class="nav-link" href="MiHistorial.html">Mi historial</a>
+              <a class="nav-link" href="AgendarCita.html">Agendar Cita</a>
+              <a class="nav-link" href="SobreLaClinica.html">Sobre la clinica</a>
+              <a class="nav-link" href="IniciarSesion.html">Cerrar Sesión</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--End Nav-->
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label" placeholder="Disabled input">Nombre</label>
+        <span class="input-group-text">Juana Ramos Rabit</span>  
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Motivo de la visita:</label>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Motivo de la visita</option>
+            <option value="revision">Revisión</option>
+            <option value="brackets">Brackets</option>
+            <option value="limpieza">Limpieza</option>
+            <option value="coronilla">Coronilla</option>
+            <option value="extraccion">Extracción</option>
+            <option value="endodoncia">Endodoncia</option>
+            <option value="remplazo">Remplazo - postiza</option>
+            <option value="opercion">Operación</option>   
+        </select>
+      </div>
+      
+      <div class="mb-3">
+          
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Feha:</label>
+        <input type="date">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Hora:</label>
+        <input type="time">	
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Precio aproximado:</label>
+        <span class="input-group-text">$150.00</span>
+    </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Comentarios adicionales:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+      </div>
+      <div class="mb-3">
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+        </div>
+    </div>
+ <!--Bootstrap-->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
